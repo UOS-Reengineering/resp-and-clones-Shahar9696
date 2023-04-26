@@ -24,11 +24,11 @@ public class Branch {
         return telephone;
     }
 
-    public void setOpeningTime(String openingTime) {
+    public void changeOpeningTime(String openingTime) {
         this.openingTime = openingTime;
     }
 
-    public void setTelephone(String telephone) {
+    public void registerTelephone(String telephone) {
         this.telephone = telephone;
     }
 

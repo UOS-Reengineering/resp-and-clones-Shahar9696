@@ -18,12 +18,18 @@ public class BankAccount {
         return interest;
     }
 
-    public double getBalance() {
+    public double getBalance() {return obtainBalance(); }
+
+    public double obtainBalance() {
         return balance;
     }
 
     public void setBalance(double balance) {
         this.balance = balance;
+    }
+
+    public void addInterest() {
+        balance = balance + balance*interest;
     }
 
     public Object getAccountNumber() {
